@@ -63,3 +63,6 @@ console.log('%c Dude! this looks awesome till now', 'color: red; font-size: 40px
 
 // View head sizes; This is a property and not a function!
 console.memory
+
+// Access value of the last console operation
+$_
