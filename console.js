@@ -68,3 +68,6 @@ console.memory
 console.count("This was called so many times")
 console.count("This was called so many times")
 
+// Assert a condition as error
+console.assert(false, "This is an error!")
+
