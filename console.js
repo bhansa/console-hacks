@@ -58,6 +58,20 @@ console.warn('It\'s a warning, please beware');
 // Puttings errors in console
 console.error('Looks likes you did somehing wrong :(');
 
+// Using console to print an image
+console.log('%c' + 'Hello Console!', '\
+font-size: 3em; \
+background: red url("http://i1344.photobucket.com/albums/p642/pacman8myghosts/48straighthoursofvidya_zps7fd7c587.gif") no-repeat center center; \
+background-size: 110% 110%; \
+font-weight: bold; \
+color: white; \
+text-shadow: 0 0 1em black, 0 0 1em black, 0 0 1em black, 0 0 1em black, 0 0 1em black; \
+padding: 1% 4% 35%; \
+border: .1em solid rgba(0,0,0,.4); \
+border-radius: 1em; \
+margin-left: 10%; \
+');
+
 // Some random and bigger text 
 console.log('%c Dude! this looks awesome till now', 'color: red; font-size: 40px');
 
