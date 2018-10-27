@@ -60,3 +60,6 @@ console.error('Looks likes you did somehing wrong :(');
 
 // Some random and bigger text 
 console.log('%c Dude! this looks awesome till now', 'color: red; font-size: 40px');
+
+// View head sizes; This is a property and not a function!
+console.memory
