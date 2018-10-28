@@ -81,6 +81,9 @@ console.log('%c Dude! this looks awesome till now', 'color: red; font-size: 40px
 // View head sizes; This is a property and not a function!
 console.memory
 
+// Prints an informational message, showing a small "i" at the message
+console.info('Foo: %o', foo);
+
 // Count logs by occurrence
 console.count("This was called so many times")
 console.count("This was called so many times")
