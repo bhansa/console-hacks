@@ -22,23 +22,23 @@ console.log('===================== HACKS =====================');
 
 
 // Printing objects with object name in logs
-const foo = { name: 'tom', age: '20', available: 'yes'}
-const bar = { name: 'dick', age: '23', available: 'no'}
-const baz = { name: 'harry', age: '26', available: 'no'}
+const foo = { name: 'tom', age: '20', available: 'yes' }
+const bar = { name: 'dick', age: '23', available: 'no' }
+const baz = { name: 'harry', age: '26', available: 'no' }
 
-console.log({foo, bar, baz});
+console.log({ foo, bar, baz });
 
 
 // Printing the above objects with some cool heading 
 console.log('%c Objects with name', 'color:  blue');
-console.log({foo, bar, baz});
+console.log({ foo, bar, baz });
 
 // Use multiple styles in a single console line -- or reset style
 console.log('%cWarning %cToo much red text!', 'color: red; font-weight:bold', '');
 
 // Printing in table format 
 console.log('%c Awesome table format', 'color: green;font-weight: bold');
-console.table({foo, bar, baz});
+console.table({ foo, bar, baz });
 
 // Grouping similar console logs 
 console.group('[Group logs]');
@@ -49,7 +49,7 @@ console.groupEnd();
 
 // Using time to track loop
 console.time('100-elements');
-for(let i=0; i<100; i++){}
+for (let i = 0; i < 100; i++) { }
 console.timeEnd('100-elements');
 
 // Using console tracing
@@ -88,3 +88,5 @@ console.count("This was called so many times")
 // Assert a condition as error
 console.assert(false, "This is an error!")
 
+// View all the properties of a specified JavaScript objec (ex: DOM object)
+console.dir(document)
