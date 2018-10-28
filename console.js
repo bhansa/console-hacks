@@ -33,11 +33,14 @@ console.log({foo, bar, baz});
 console.log('%c Objects with name', 'color:  blue');
 console.log({foo, bar, baz});
 
+// Use multiple styles in a single console line -- or reset style
+console.log('%cWarning %cToo much red text!', 'color: red; font-weight:bold', '');
+
 // Printing in table format 
 console.log('%c Awesome table format', 'color: green;font-weight: bold');
 console.table({foo, bar, baz});
 
-// Grouping simiar console logs 
+// Grouping similar console logs 
 console.group('[Group logs]');
 console.log(foo);
 console.log(bar);
