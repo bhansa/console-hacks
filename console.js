@@ -61,6 +61,10 @@ console.warn('It\'s a warning, please beware');
 // Puttings errors in console
 console.error('Looks likes you did somehing wrong :(');
 
+// Using console asserts
+console.assert(false,"This is a false assertion");
+console.assert(true,"This is a true assertion");
+
 // Using console to print an image
 console.log('%c' + 'Hello Console!', '\
 font-size: 3em; \
