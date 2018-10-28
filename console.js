@@ -100,3 +100,11 @@ console.assert(false, "This is an error!")
 
 // View all the properties of a specified JavaScript objec (ex: DOM object)
 console.dir(document)
+
+// This even works with functions:
+
+// No properties debuggable
+console.log(document.getElementById)
+
+// Properties debuggable
+console.dir(document.getElementById)
