@@ -63,3 +63,11 @@ console.log('%c Dude! this looks awesome till now', 'color: red; font-size: 40px
 
 // View head sizes; This is a property and not a function!
 console.memory
+
+// Count logs by occurrence
+console.count("This was called so many times")
+console.count("This was called so many times")
+
+// Assert a condition as error
+console.assert(false, "This is an error!")
+
