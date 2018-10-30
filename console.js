@@ -26,8 +26,10 @@ const foo = { name: 'tom', age: '20', available: 'yes' }
 const bar = { name: 'dick', age: '23', available: 'no' }
 const baz = { name: 'harry', age: '26', available: 'no' }
 
-console.log({ foo, bar, baz });
+// Creates an array with all previously created objects
+const objArr = [foo, bar, baz]
 
+console.log({ foo, bar, baz });
 
 // Printing the above objects with some cool heading 
 console.log('%c Objects with name', 'color:  blue');
@@ -64,6 +66,9 @@ console.error('Looks likes you did somehing wrong :(');
 // Using console asserts
 console.assert(false,"This is a false assertion");
 console.assert(true,"This is a true assertion");
+
+// Displays the objects as table with the array indexes
+console.table(objArr)
 
 // Using console to print an image
 console.log('%c' + 'Hello Console!', '\
