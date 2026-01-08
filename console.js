@@ -94,6 +94,8 @@ console.info('Foo: %o', foo);
 // Count logs by occurrence
 console.count("This was called so many times")
 console.count("This was called so many times")
+// reset the occurance counter
+console.countReset("This was called so many times")
 
 // Assert a condition as error
 console.assert(false, "This is an error!")
@@ -108,3 +110,6 @@ console.log(document.getElementById)
 
 // Properties debuggable
 console.dir(document.getElementById)
+
+// Clear the console
+console.clear()
