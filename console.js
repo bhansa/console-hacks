@@ -86,7 +86,9 @@ console.log('%c Dude! this looks awesome till now', 'color: red; font-size: 40px
 console.memory
 
 // Access value of the last console operation
-$_
+// this api is only available on the console itself
+// $_
+console.log('You can repeat the last command by submiting $_ to the console')
 
 // Prints an informational message, showing a small "i" at the message
 console.info('Foo: %o', foo);
