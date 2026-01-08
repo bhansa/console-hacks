@@ -61,6 +61,20 @@ console.warn('It\'s a warning, please beware');
 // Puttings errors in console
 console.error('Looks likes you did somehing wrong :(');
 
+// String substitution
+console.log('String %s', 'substitutions')
+
+//number, float substitution
+console.log('int: %d, floating-point: %f', 1, 1.5)
+
+
+//String Templates
+const a = 'substitutions';
+console.log(`bear: ${a}`);
+
+//Clear Console
+console.clear()
+	
 // Using console asserts
 console.assert(false,"This is a false assertion");
 console.assert(true,"This is a true assertion");
